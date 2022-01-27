@@ -1,0 +1,5 @@
+Few examples of anti-patterns in JavaScript are the following:
+
+   Polluting the global namespace by defining a large number of variables in the global context
+Passing strings rather than functions to either setTimeout or setInterval as this triggers the use of eval() internally.
+   Modifying the Object class prototype (this is a particularly bad anti-pattern)

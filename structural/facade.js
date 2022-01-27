@@ -1,0 +1,1 @@
+// The facade pattern consists of a facade, which is an object that acts as a “front-face” for a much complex structural code. Developers normally use this pattern when a system is very complex or difficult to understand to provide a simpler interface to the client.
