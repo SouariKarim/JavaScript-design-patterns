@@ -1,0 +1,17 @@
+a class diagram describes the structure of a system by showing it's classes , their attributes , methods and the relations between them.
+
+
+Classes are described as boxes in a Class Diagram. Each box has a title that represents the name of the class. Under the title, there are two sections:
+
+The middle part of the box includes attributes. An attribute notation is attribute:type = defaultValue (optional)
+
+The bottom part includes operations. An operation notation is operation(params):returnType
+
+
+** the composition : represented by a filled and rotated  rectangle on the side  of tha class connected to a different class , it means that one class is a part of the other class. this means that one class has a member variable in the other class and
+
+** aggregation : respresented by an unfilled and rotated rectangle on the side of the class connected to a different class, it means that the classes are connected to eachother but their lifecycle can differ .
+
+** association : marked by a single line between two classes , means that the classes are using each other , but not owning !!
+
+** generalisation : respresented by a trianlgle-ended arrow , it means that one class is generalized version of the other class (or specified version of the other class)
