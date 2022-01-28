@@ -1,0 +1,1 @@
+I use adapters for connecting APIs, singletons for Ember services, state and observers for managing UIs, and facades for both managing objects and fooling my relatives on holidays.

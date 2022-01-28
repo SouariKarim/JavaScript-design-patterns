@@ -25,5 +25,5 @@ const Singleton = (function () {
 function run() {
   const instance1 = Singleton();
   const instance2 = Singleton();
-  // these two instances are the same , they were constructed from the same singleton instance , so we do not have to make a new instance to use it in another process
+  // these two instances are the same , they were constructed from the same singleton instance , so we do not have to make a new instance of the root constructor  to use it in another process
 }
